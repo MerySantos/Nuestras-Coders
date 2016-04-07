@@ -1,0 +1,24 @@
+/* Inserta tu código aqui */ /* Título 211x 211*/
+.subrayado{
+/* Rayita Negra*/
+width: 60px;
+height:5px;
+background: #000;
+}
+
+.contenedor{
+	height: 1000px;
+	width: 1000px;
+}
+
+.contenedor>div {
+	width: 211px;
+	height: 211px;
+	border: 1px solid black;
+}
+h4{
+	margin-bottom: 10px;
+}
+.contenedor div p{
+	content: "Nombre y Apellido";
+}
