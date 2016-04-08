@@ -1,24 +1,41 @@
-/* Inserta tu código aqui */ /* Título 211x 211*/
-.subrayado{
-/* Rayita Negra*/
-width: 60px;
-height:5px;
-background: #000;
+/* Título 211x 211*/
+.subrayado{ /* Rayita Negra*/
+	width: 90px;
+	height:4px;
+	background: #000;
+	box-shadow: 2px 2px 5px #999;
 }
 
 .contenedor{
-	height: 1000px;
-	width: 1000px;
+	height: 500px;
+	width: 700px;
+	position:static;
+	margin-top: 20px;
+	padding-left: 14px;
+	padding-top: 14px;
 }
 
 .contenedor>div {
 	width: 211px;
 	height: 211px;
-	border: 1px solid black;
+	display: inline-block; 	
+	position: relative;
+	margin:7px;
 }
-h4{
-	margin-bottom: 10px;
+
+.contenedor div p:before {
+	content: "Nombre y Apellido"; 
+	font-size: 13px;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	bottom: 0;	
 }
-.contenedor div p{
-	content: "Nombre y Apellido";
-}
+
+img{-webkit-filter:brightness(0.8);}
+
+img:hover{-webkit-filter:brightness(1);}
+
+
+
+
